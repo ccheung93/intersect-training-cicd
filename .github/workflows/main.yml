@@ -13,6 +13,7 @@ jobs:
         allow_failure: [false]
         include:
           - python-version: "3.13.0-beta.3"
+            os-version: ubuntu-latest
             allow_failure: true
     steps:
       - uses: actions/checkout@v3
